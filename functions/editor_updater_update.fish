@@ -1,4 +1,4 @@
-function doa_editor_updater_update \
+function editor_updater_update \
     --description "Updates your EDITOR if you're in an IDE integrated terminal."
 
     set --function --export enable_logging $argv[1]
